@@ -1,0 +1,25 @@
+---
+layout: default
+---
+<div class="row t30">
+  <div class="medium-10 columns medium-offset-1 end">
+    <article itemscope itemtype="http://schema.org/Article">
+      <header>
+        {% if page.title %}
+          <div itemprop="name">
+            <h1>{{ page.title }}</h1>
+          </div>
+        {% endif %}
+      </header>
+      <div itemprop="articleSection">
+        {{ content }}
+      </div>
+    </article>
+  </div><!-- /.medium-10.columns -->
+</div><!-- /.row -->
+
+<div id="up-to-top" class="row">
+  <div class="small-12 columns" style="text-align: right;">
+    <a class="iconfont" href="#top-of-page">&#xf108;</a>
+  </div>
+</div>
