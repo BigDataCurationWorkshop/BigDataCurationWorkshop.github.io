@@ -2,6 +2,8 @@
 layout: page
 title: Organizers
 permalink: /organizers/
+header:
+  image_fullwidth: "banner.jpg"
 ---
 
 # Organizers

@@ -2,6 +2,8 @@
 layout: page
 title: Schedule
 permalink: /schedule/
+header:
+  image_fullwidth: "banner.jpg"
 ---
 
 # Workshop Schedule

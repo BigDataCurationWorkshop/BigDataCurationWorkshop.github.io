@@ -27,8 +27,8 @@ credits: >-
 # Logo (place a logo.png in the root if desired)
 # logo: "logo.png"
 
-# Image URL base (not used — no hosted image CDN)
-urlimg: '/images/'
+# Base URL for images — theme prepends this to image_fullwidth filenames
+urlimg: '/assets/img/'
 
 # Markdown
 markdown: kramdown

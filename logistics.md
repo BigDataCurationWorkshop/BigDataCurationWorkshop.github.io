@@ -2,6 +2,8 @@
 layout: page
 title: Logistics
 permalink: /logistics/
+header:
+  image_fullwidth: "banner.jpg"
 ---
 
 # Logistics

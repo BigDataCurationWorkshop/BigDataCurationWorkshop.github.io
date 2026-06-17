@@ -2,6 +2,8 @@
 layout: page
 title: Call for Papers
 permalink: /cfp/
+header:
+  image_fullwidth: "banner.jpg"
 ---
 
 # Call for Papers

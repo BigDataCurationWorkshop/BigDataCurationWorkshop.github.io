@@ -2,6 +2,8 @@
 layout: page
 title: Speakers
 permalink: /speakers/
+header:
+  image_fullwidth: "banner.jpg"
 ---
 
 # Invited Speakers

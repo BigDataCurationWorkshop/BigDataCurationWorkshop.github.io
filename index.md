@@ -1,6 +1,9 @@
 ---
 layout: page
 title: "Home"
+header:
+  image_fullwidth: "banner.jpg"
+
 ---
 
 # Welcome
