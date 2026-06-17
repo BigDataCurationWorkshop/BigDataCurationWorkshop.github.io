@@ -24,8 +24,9 @@ credits: >-
   <a href="https://bigdataieee.org/BigData2026/">IEEE BigData 2026</a>.
   Contact: <a href="mailto:ExtremeCurationWorkshop@googlegroups.com">ExtremeCurationWorkshop@googlegroups.com</a></p>
 
-# Logo (place a logo.png in the root if desired)
-# logo: "logo.png"
+# Transparent 1×1 placeholder — suppresses the broken image the theme
+# renders when no logo is set (it always emits an <img> tag regardless)
+logo: "logo.png"
 
 # Base URL for images — theme prepends this to image_fullwidth filenames
 urlimg: '/assets/img/'
