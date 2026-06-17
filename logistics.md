@@ -6,8 +6,6 @@ header:
   image_fullwidth: "banner.jpg"
 ---
 
-# Logistics
-
 ## Venue
 
 The workshop will be held at at the Sheraton Phoenix Downtown in Phoenix, Arizona, USA.

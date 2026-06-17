@@ -6,8 +6,6 @@ header:
   image_fullwidth: "banner.jpg"
 ---
 
-# Workshop Schedule
-
 *The schedule will be posted after paper acceptance notifications are sent.*
 
 <!--

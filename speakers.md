@@ -1,12 +1,10 @@
 ---
 layout: page
-title: Speakers
+title: Invited Speakers
 permalink: /speakers/
 header:
   image_fullwidth: "banner.jpg"
 ---
-
-# Invited Speakers
 
 *Speaker announcements coming soon.*
 

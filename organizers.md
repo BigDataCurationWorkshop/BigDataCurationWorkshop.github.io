@@ -6,8 +6,6 @@ header:
   image_fullwidth: "banner.jpg"
 ---
 
-# Organizers
-
 ## Workshop Chairs
 
 * Katie Knight, Information Scientist, Oak Ridge National Laboratory

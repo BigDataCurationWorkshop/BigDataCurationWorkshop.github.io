@@ -6,8 +6,6 @@ header:
   image_fullwidth: "banner.jpg"
 ---
 
-# Call for Papers
-
 TBD
 
 ## Topics of Interest
