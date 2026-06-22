@@ -11,10 +11,109 @@ GitHub Pages.
 
 ## Prerequisites
 
-- **Ruby** 3.0+ (GitHub Actions builds with 3.1 — see
-  `.github/workflows/`). If you're stuck on Ruby 2.6 and see `ffi`
-  version errors, see the note at the bottom of `Gemfile`.
-- **Bundler** (`gem install bundler` if you don't already have it)
+This site is built with [Jekyll](https://jekyllrb.com/), which is a
+**Ruby** program. You don't need to know Ruby or Jekyll to build the
+site — you just need Ruby itself installed, plus a Ruby package
+manager called **Bundler**. The steps below assume you have never
+installed Ruby before and walk through it from scratch.
+
+GitHub Actions (the thing that builds the live site) uses **Ruby
+3.1**. Match that version if you can, to minimize "works on GitHub but
+not on my machine" surprises.
+
+### Step 1: Check whether you already have Ruby
+
+Open a terminal and run:
+
+```bash
+ruby -v
+```
+
+- If you see something like `ruby 3.1.x ...` or higher, skip to
+  **Step 3**.
+- If you see `ruby 2.x` (e.g. macOS's built-in system Ruby is often
+  2.6), don't use it — it's old enough to cause gem version errors.
+  Continue to Step 2 to install a newer one.
+- If you see `command not found`, continue to Step 2.
+
+### Step 2: Install Ruby
+
+Don't install Ruby system-wide if you can avoid it (it usually
+requires `sudo` and makes upgrading painful later). Instead, install a
+**Ruby version manager**, which installs Ruby into your home
+directory and lets you switch versions per-project. This repo uses
+[`rbenv`](https://github.com/rbenv/rbenv) as an example below, but
+[`rvm`](https://rvm.io/) or [`asdf`](https://asdf-vm.com/) work
+similarly.
+
+**macOS** (using [Homebrew](https://brew.sh/) — install Homebrew first
+if you don't have it, via the command on that site):
+
+```bash
+brew install rbenv ruby-build
+rbenv init
+# Follow the printed instructions to add rbenv to your shell startup
+# file (e.g. ~/.zshrc), then restart your terminal or run:
+exec $SHELL
+
+rbenv install 3.1.0
+cd /path/to/ExtremeDataCurationWorkshop.github.io
+rbenv local 3.1.0
+```
+
+**Linux (Debian/Ubuntu)**:
+
+```bash
+sudo apt update
+sudo apt install -y git curl libssl-dev libreadline-dev zlib1g-dev \
+  autoconf bison build-essential libyaml-dev libreadline-dev \
+  libncurses5-dev libffi-dev libgdbm-dev
+
+curl -fsSL https://github.com/rbenv/rbenv-installer/raw/HEAD/bin/rbenv-installer | bash
+# Follow the printed instructions to add rbenv to your shell startup
+# file (e.g. ~/.bashrc), then restart your terminal or run:
+exec $SHELL
+
+rbenv install 3.1.0
+cd /path/to/ExtremeDataCurationWorkshop.github.io
+rbenv local 3.1.0
+```
+
+**Windows**: the simplest path is to install
+[WSL (Windows Subsystem for Linux)](https://learn.microsoft.com/en-us/windows/wsl/install)
+first, then follow the Linux instructions above inside your WSL
+terminal. (Native Windows Ruby via
+[RubyInstaller](https://rubyinstaller.org/) also works, but the
+Feeling Responsive theme and Jekyll tooling are most predictably
+behaved on Linux/macOS.)
+
+After installing, confirm it worked:
+
+```bash
+ruby -v
+# should now print 3.1.x (or whatever version you installed)
+```
+
+If it still shows an old version or "command not found," your shell
+likely needs to be restarted, or rbenv wasn't added to your shell
+startup file correctly — re-check the "Follow the printed
+instructions" step above.
+
+### Step 3: Install Bundler
+
+Bundler is Ruby's equivalent of `npm`/`pip` — it reads the `Gemfile`
+in this repo and installs exactly the gem (Ruby package) versions
+listed in `Gemfile.lock`.
+
+```bash
+gem install bundler
+bundle -v
+```
+
+This should print a Bundler version with no errors. If you get a
+permissions error here, it almost always means Ruby is still pointing
+at a system install rather than the rbenv one from Step 2 — re-check
+that step rather than re-running this with `sudo`.
 
 ## Setup
 
@@ -24,10 +123,21 @@ cd ExtremeDataCurationWorkshop.github.io
 bundle install
 ```
 
+`bundle install` reads `Gemfile`/`Gemfile.lock` and downloads/installs
+every Ruby package this site needs (Jekyll itself, the Sass
+processor, a few Jekyll plugins) into a project-local location — it
+does not touch anything outside this folder.
+
 This installs a standalone Jekyll (not the `github-pages` gem) with
 `jekyll-sass-converter` pinned to 1.x — required because the Feeling
 Responsive theme's Foundation grid Sass breaks under Sass 2.x. See the
-comments in `Gemfile` for details.
+comments in `Gemfile` for details. You don't need to understand why;
+just don't delete that pin.
+
+If `bundle install` fails with something mentioning the `ffi` gem and
+a version number, your Ruby is too old (see Step 2 above) — upgrading
+Ruby is the real fix; the `ffi` pin already in `Gemfile` is only a
+fallback for people stuck on old Ruby.
 
 ## Local preview
 
