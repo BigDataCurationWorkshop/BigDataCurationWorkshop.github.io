@@ -19,7 +19,7 @@ Technical highlights include the intersection of information science and associa
 
 | Event | Date |
 |---|---|
-| Call for papers available | July 5
+| Call for papers available | July 5 |
 | Paper submission deadline | October 1 (AOE) |
 | Notification of acceptance | November 4 |
 | Camera-ready deadline | November 25 |
@@ -32,3 +32,5 @@ Extreme Curation 2026 will be held at the Sheraton Phoenix Downtown in Phoenix, 
 ---
 
 Questions? Contact the organizers at [ExtremeCurationWorkshop@googlegroups.com](mailto:ExtremeCurationWorkshop@googlegroups.com).
+
+
