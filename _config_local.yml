@@ -1,0 +1,17 @@
+# Local development override for feeling-responsive branch
+#
+# ⚠️  IMPORTANT: Feeling Responsive is not available as a Ruby gem,
+#     so there is no gem-based local preview workaround for SSL issues.
+#
+#     To preview locally you have two options:
+#
+#     Option A — Fix SSL (recommended long-term):
+#       Add your corporate CA cert to the system trust store, then:
+#         bundle exec jekyll serve
+#
+#     Option B — Push to GitHub Pages and preview there:
+#         git push origin feeling-responsive
+#       Then enable Pages on that branch in the repo settings.
+#
+# If your SSL environment is working fine, this file is not needed.
+# The site builds normally with just _config.yml.

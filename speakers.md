@@ -1,11 +1,10 @@
 ---
-layout: default
-title: Speakers
+layout: page
+title: Invited Speakers
 permalink: /speakers/
-nav_order: 4
+header:
+  image_fullwidth: "banner.jpg"
 ---
-
-# Invited Speakers
 
 *Speaker announcements coming soon.*
 

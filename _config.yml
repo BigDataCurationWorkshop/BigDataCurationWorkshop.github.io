@@ -1,57 +1,69 @@
 title: "Extreme Curation 2026"
-subtitle: "First Annual Workshop on Curation and Contextualization of Extreme Datasets"
-
+slogan: "First Annual Workshop on Curation and Contextualization of Extreme Datasets"
 description: >-
   A workshop bringing together researchers and practitioners to advance
-  the theory and practice of big data curation.
+  the theory and practice of big data curation. Co-located with the 2026
+  IEEE International Conference on Big Data — Phoenix AZ, December 14–17 2026.
 
-venue: >-
-  In association with the 2026 IEEE International Conference on Big Data
-  (IEEE BigData 2026) — Phoenix AZ, December 14–17 2026
+# Feeling Responsive theme via remote_theme (GitHub Pages deployment)
+# NOTE: local preview requires SSL to be working — see _config_local.yml
+remote_theme: Phlow/feeling-responsive
 
-# Theme — vendored locally from pages-themes/minimal
-# (no theme: line needed; _layouts/default.html and _sass/ take precedence)
+# GitHub repo
+repository: ExtremeDataCurationWorkshop/ExtremeDataCurationWorkshop.github.io
 
-
-# GitHub repo (required by jekyll-seo-tag locally)
-repository: BigDataCurationWorkshop/BigDataCurationWorkshop.github.io
-
-#Site URL (update when you know the final GitHub Pages URL)
-#url: "https://bigdatacurationworkshop.github.io"
+#url: "https://extremedatacurationworkshop.github.io"
 #baseurl: ""
 
-# Author / contact
-author:
-  name: "Workshop Organizers"
-  email: ""
+# Main author — details in _data/authors.yml
+author: organizers
 
-# Navigation pages (in order)
-header_pages:
-  - index.md
-  - cfp.md
-  - schedule.md
-  - speakers.md
-  - logistics.md
-  - organizers.md
+# Footer credits
+credits: >-
+  <p>Extreme Curation 2026 &mdash; Co-located with
+  <a href="https://bigdataieee.org/BigData2026/">IEEE BigData 2026</a>.<br/>Contact: <a href="mailto:ExtremeCurationWorkshop@googlegroups.com">ExtremeCurationWorkshop@googlegroups.com</a><br/><a href="https://commons.wikimedia.org/w/index.php?curid=6359233">Banner photo</a> credit: <a href="https://en.wikipedia.org/wiki/User:Hngrange">Hngrange</a> at <a href="https://en.wikipedia.org/wiki/">English Wikipedia</a> (<a href="https://creativecommons.org/licenses/by-sa/3.0/deed.en">CC BY-SA 3.0</a>) </p>
 
-# Markdown processor
+# Transparent 1×1 placeholder — suppresses the broken image the theme
+# renders when no logo is set (it always emits an <img> tag regardless)
+logo: "logo.png"
+
+# Base URL for images — theme prepends this to image_fullwidth filenames
+urlimg: '/assets/img/'
+
+# Markdown
 markdown: kramdown
 highlighter: rouge
+permalink: /:title/
+excerpt_separator: "<!--more-->"
 
-# Plugins allowed on GitHub Pages
+# Plugins
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
-  
+  - jekyll-remote-theme
+  - jekyll-include-cache
+
 # Exclude from build
 exclude:
   - Gemfile
   - Gemfile.lock
   - vendor/
   - README.md
-  - "\\#*\\#"   # Emacs auto-save files
-  - ".\\#*"    # Emacs lock symlinks
+  - _config_local.yml
+  - "\\#*\\#"
+  - ".\\#*"
 
+# Sass
+sass:
+  sass_dir: _sass
+  style: :compressed
 
-polling: true
-
+# Page defaults
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      show_meta: false
+      comments: false
+      author: organizers

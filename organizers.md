@@ -1,11 +1,10 @@
 ---
-layout: default
+layout: page
 title: Organizers
 permalink: /organizers/
-nav_order: 6
+header:
+  image_fullwidth: "banner.jpg"
 ---
-
-# Organizers
 
 ## Workshop Chairs
 

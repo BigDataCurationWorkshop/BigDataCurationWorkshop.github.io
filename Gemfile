@@ -1,9 +1,19 @@
 source "https://rubygems.org"
 
-# Use the same gem bundle as GitHub Pages for local parity.
-# Run: bundle install
-# Preview: bundle exec jekyll serve
-gem "github-pages", group: :jekyll_plugins
+# Standalone Jekyll — used instead of github-pages so we can pin
+# jekyll-sass-converter to 1.x. The Feeling Responsive theme uses
+# Foundation's grid (percentage(calc(...))), which breaks on Sass 2.x.
+gem "jekyll", "~> 3.9"
+
+# Sass fix: pin to 1.x (Ruby Sass) to handle Foundation's old calc() syntax
+gem "jekyll-sass-converter", "~> 1.5"
+gem "kramdown-parser-gfm"
+
+# Plugins
+gem "jekyll-feed"
+gem "jekyll-seo-tag"
+gem "jekyll-remote-theme"
+gem "jekyll-include-cache"
 
 # ----------------------------------------------------------------
 # Ruby version note:

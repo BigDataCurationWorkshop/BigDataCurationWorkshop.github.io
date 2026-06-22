@@ -1,0 +1,27 @@
+- title: Home
+  url: "/"
+  side: left
+
+- title: Call for Papers
+  url: "/cfp/"
+  side: left
+
+- title: Schedule
+  url: "/schedule/"
+  side: left
+
+- title: Speakers
+  url: "/speakers/"
+  side: left
+
+- title: Logistics
+  url: "/logistics/"
+  side: left
+
+- title: Organizers
+  url: "/organizers/"
+  side: left
+
+- title: Contact
+  url: "mailto:ExtremeCurationWorkshop@googlegroups.com"
+  side: right

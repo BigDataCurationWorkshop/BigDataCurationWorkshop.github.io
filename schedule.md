@@ -1,11 +1,10 @@
 ---
-layout: default
+layout: page
 title: Schedule
 permalink: /schedule/
-nav_order: 3
+header:
+  image_fullwidth: "banner.jpg"
 ---
-
-# Workshop Schedule
 
 *The schedule will be posted after paper acceptance notifications are sent.*
 

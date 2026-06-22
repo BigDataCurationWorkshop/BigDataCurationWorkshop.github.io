@@ -1,11 +1,10 @@
 ---
-layout: default
+layout: page
 title: Logistics
 permalink: /logistics/
-nav_order: 5
+header:
+  image_fullwidth: "banner.jpg"
 ---
-
-# Logistics
 
 ## Venue
 

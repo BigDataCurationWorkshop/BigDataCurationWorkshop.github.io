@@ -1,11 +1,10 @@
 ---
-layout: default
+layout: page
 title: Call for Papers
 permalink: /cfp/
-nav_order: 2
+header:
+  image_fullwidth: "banner.jpg"
 ---
-
-# Call for Papers
 
 TBD
 
