@@ -6,7 +6,11 @@ header:
   image_fullwidth: "banner.jpg"
 ---
 
-TBD
+The workshop invites submissions that advance the theory, practice, and evaluation of data curation for large-scale, heterogeneous, and computationally intensive research environments. We welcome work that treats curation as an active lifecycle process supporting data quality, provenance, governance, reuse, and responsible analysis rather than as a final-stage preservation activity. 
+
+Submissions may present new methods, conceptual frameworks, systems, infrastructure, empirical studies, benchmarks, or lessons learned from operational deployments. We particularly encourage work that connects curation requirements with scientific workflows, high performance and distributed computing, and the preparation and maintenance of data for AI and machine learning. 
+
+We welcome submissions from researchers and practitioners across data curation, data management, scientific computing, information science, AI/ML, and related disciplines. Interdisciplinary contributions and papers that identify unresolved technical, organizational, or governance challenges are especially encouraged. 
 
 ## Topics of Interest
 
