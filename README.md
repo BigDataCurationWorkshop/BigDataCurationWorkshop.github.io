@@ -18,8 +18,11 @@ manager called **Bundler**. The steps below assume you have never
 installed Ruby before and walk through it from scratch.
 
 GitHub Actions (the thing that builds the live site) uses **Ruby
-3.1**. Match that version if you can, to minimize "works on GitHub but
-not on my machine" surprises.
+3.3**. Match that version if you can, to minimize "works on GitHub but
+not on my machine" surprises. (Ruby 3.1 and 3.2 are both EOL.
+Ruby 3.4+ requires extra Gemfile entries for `csv` and `base64` that
+were removed from stdlib; Ruby 3.3 works with this repo's Gemfile
+as-is.)
 
 ### Step 1: Check whether you already have Ruby
 
@@ -29,11 +32,13 @@ Open a terminal and run:
 ruby -v
 ```
 
-- If you see something like `ruby 3.1.x ...` or higher, skip to
-  **Step 3**.
+- If you see `ruby 3.3.x` or `ruby 3.4.x`, skip to **Step 3**.
+- If you see `ruby 3.1.x` or `ruby 3.2.x`, both are EOL — continue
+  to Step 2 to install a supported version.
 - If you see `ruby 2.x` (e.g. macOS's built-in system Ruby is often
-  2.6), don't use it — it's old enough to cause gem version errors.
-  Continue to Step 2 to install a newer one.
+  2.6), don't use it — it's too old. Continue to Step 2.
+- Note: Ruby 3.4+ works but requires extra Gemfile entries not yet
+  needed on 3.3; stick to 3.3 for the smoothest local experience.
 - If you see `command not found`, continue to Step 2.
 
 ### Step 2: Install Ruby
@@ -56,9 +61,9 @@ rbenv init
 # file (e.g. ~/.zshrc), then restart your terminal or run:
 exec $SHELL
 
-rbenv install 3.1.0
+rbenv install 3.3.0
 cd /path/to/ExtremeDataCurationWorkshop.github.io
-rbenv local 3.1.0
+rbenv local 3.3.0
 ```
 
 **Linux (Debian/Ubuntu)**:
@@ -74,9 +79,9 @@ curl -fsSL https://github.com/rbenv/rbenv-installer/raw/HEAD/bin/rbenv-installer
 # file (e.g. ~/.bashrc), then restart your terminal or run:
 exec $SHELL
 
-rbenv install 3.1.0
+rbenv install 3.3.0
 cd /path/to/ExtremeDataCurationWorkshop.github.io
-rbenv local 3.1.0
+rbenv local 3.3.0
 ```
 
 **Windows**: the simplest path is to install
@@ -91,7 +96,7 @@ After installing, confirm it worked:
 
 ```bash
 ruby -v
-# should now print 3.1.x (or whatever version you installed)
+# should now print 3.3.x (or whatever version you installed)
 ```
 
 If it still shows an old version or "command not found," your shell
