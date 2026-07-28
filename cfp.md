@@ -47,10 +47,10 @@ Authors shall disclose any use of artificial intelligence (AI)-generated content
 
 | Event | Date |
 |---|---|
-| Submission deadline | TBD |
-| Notification | TBD |
-| Camera-ready | TBD |
-| Workshop | TBD |
+| Submission deadline | October 1, 2026 |
+| Notification | November 4, 2026 |
+| Camera-ready | November 25, 2026 |
+| Workshop | TBD during December 14--17, 2026 |
 
 ## Contact
 
