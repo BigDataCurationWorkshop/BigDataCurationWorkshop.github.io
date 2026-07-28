@@ -6,7 +6,7 @@ header:
   image_fullwidth: "banner.jpg"
 ---
 
-The workshop invites submissions that advance the theory, practice, and evaluation of data curation for large-scale, heterogeneous, and computationally intensive research environments. We welcome work that treats curation as an active lifecycle process supporting data quality, provenance, governance, reuse, and responsible analysis rather than as a final-stage preservation activity. 
+Assembling extreme-scale datasets for AI and data-intensive analysis was initially an obstacle in its own right, but we now find ourselves in an era where we need to think more deeply about managing, versioning, subsetting, and curating large numbers of such datasets.  This workshop invites submissions that advance the theory, practice, and evaluation of data curation for large-scale, heterogeneous, and computationally intensive research environments. Our intent is to build a collaborative discussion around curation as an active lifecycle process supporting data quality, provenance, governance, reuse, and responsible analysis rather than just as a final-stage preservation activity. 
 
 Submissions may present new methods, conceptual frameworks, systems, infrastructure, empirical studies, benchmarks, or lessons learned from operational deployments. We particularly encourage work that connects curation requirements with scientific workflows, high performance and distributed computing, and the preparation and maintenance of data for AI and machine learning (E.G., AI-Ready). 
 
@@ -16,6 +16,7 @@ We welcome submissions from researchers and practitioners across data curation, 
 
 We invite submissions on topics including but not limited to:
 
+- Practical experiences with success and failure of extreme scale dataset management
 - Foundations of data curation: theory, life cycle models, conceptual frameworks, and evaluation models
 - Provenance capture, representation, querying, validation, and management at scale
 - Data life cycle curation of heterogeneous datasets to preserve privacy and community access requirements
