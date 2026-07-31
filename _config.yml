@@ -26,6 +26,14 @@ logo: "logo.png"
 # Base URL for images — theme prepends this to image_fullwidth filenames
 urlimg: '/assets/img/'
 
+# Caption text overlaid on assets/img/banner.jpg (see _includes/_header.html) —
+# edit these instead of the image when the dates/venue change
+banner:
+  title_line1: "First Annual IEEE Workshop on Curation and Contextualization"
+  title_line2: "of Extreme Datasets (ExtremeDataCuration 2026)"
+  venue: "Sheraton Downtown Phoenix, Arizona"
+  dates: "December 14-17, 2026"
+
 # Markdown
 markdown: kramdown
 highlighter: rouge
