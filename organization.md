@@ -17,7 +17,7 @@ header:
 * Christine Kirkpatrick, San Diego Supercomputer Center
 * Beth Plale, University of Oregon
 * Wade Bishop, University of Tennessee
-* Christopher Erdmann, SciLifeLab Data Centre (Sweden)
+* Christopher Erdmann, Frontiers
 
 
 ---
