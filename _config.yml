@@ -1,9 +1,5 @@
-title: "Extreme Curation 2026"
+title: "Extreme Data Curation 2026"
 slogan: "First Annual Workshop on Curation and Contextualization of Extreme Datasets"
-description: >-
-  A workshop bringing together researchers and practitioners to advance
-  the theory and practice of big data curation. Co-located with the 2026
-  IEEE International Conference on Big Data — Phoenix AZ, December 14–17 2026.
 
 # Feeling Responsive theme via remote_theme (GitHub Pages deployment)
 # NOTE: local preview requires SSL to be working — see _config_local.yml
@@ -21,7 +17,7 @@ author: organizers
 # Footer credits
 credits: >-
   <p>Extreme Curation 2026 &mdash; Co-located with
-  <a href="https://bigdataieee.org/BigData2026/">IEEE BigData 2026</a>.<br/>Contact: <a href="mailto:ExtremeCurationWorkshop@googlegroups.com">ExtremeCurationWorkshop@googlegroups.com</a><br/><a href="https://commons.wikimedia.org/w/index.php?curid=6359233">Banner photo</a> credit: <a href="https://en.wikipedia.org/wiki/User:Hngrange">Hngrange</a> at <a href="https://en.wikipedia.org/wiki/">English Wikipedia</a> (<a href="https://creativecommons.org/licenses/by-sa/3.0/deed.en">CC BY-SA 3.0</a>) </p>
+  <a href="https://bigdataieee.org/BigData2026/">IEEE BigData 2026</a>.<br/>Contact: <a href="mailto:extreme-data-curation-organizers@googlegroups.com">extreme-data-curation-organizers@googlegroups.com</a><br/><a href="https://commons.wikimedia.org/w/index.php?curid=6359233">Banner photo</a> credit: <a href="https://en.wikipedia.org/wiki/User:Hngrange">Hngrange</a> at <a href="https://en.wikipedia.org/wiki/">English Wikipedia</a> (<a href="https://creativecommons.org/licenses/by-sa/3.0/deed.en">CC BY-SA 3.0</a>) </p>
 
 # Transparent 1×1 placeholder — suppresses the broken image the theme
 # renders when no logo is set (it always emits an <img> tag regardless)
