@@ -35,7 +35,7 @@ We solicit original research papers up to 8 pages in length (including reference
 
 ## Submission Instructions
 
-Submissions should be made via [submission system name] at: **[Submission link](#)**
+Submission information will be provided here when available.
 
 All submissions will be single-blind peer-reviewed. Authors of accepted papers will receive an invitation for an oral presentation at the workshop. At least one author of each accepted paper must register as an author for the workshop. Accepted papers will be published as part of the IEEE BigData proceedings.
 
@@ -54,4 +54,4 @@ Authors shall disclose any use of artificial intelligence (AI)-generated content
 
 ## Contact
 
-For questions about submissions, contact the program chairs at [email@example.com](mailto:email@example.com).
+For questions about submissions, contact the workshop organizers at [extreme-data-curation-organizers@googlegroups.com](mailto:extreme-data-curation-organizers@googlegroups.com).

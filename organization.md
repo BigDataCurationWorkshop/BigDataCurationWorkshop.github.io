@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Organizers
-permalink: /organizers/
+title: Organization
+permalink: /organization/
 header:
   image_fullwidth: "banner.jpg"
 ---
@@ -23,4 +23,4 @@ header:
 
 ---
 
-For general inquiries, contact the workshop chairs at [email@example.com](mailto:email@example.com).
+For general inquiries, contact the workshop organizers at [extreme-data-curation-organizers@googlegroups.com](mailto:extreme-data-curation-organizers@googlegroups.com).

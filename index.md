@@ -6,7 +6,7 @@ header:
 
 ---
 
-Welcome to the First Annual IEEE Workshop on Curation and Contextualization of Extreme Datasets! This workshop brings together a community to explore data curation as a life cycle-spanning work that maintains, preserves, and adds value to data and their computational context at modern extreme scales.
+Welcome to the First Annual IEEE Workshop on Curation and Contextualization of Extreme Datasets (AKA Extreme Data Curation 2026)! This workshop brings together a community to explore data curation as a life cycle-spanning work that maintains, preserves, and adds value to data and their computational context at modern extreme scales.
 
 ## About the Workshop
 
@@ -19,18 +19,17 @@ Technical highlights include the intersection of information science and associa
 
 | Event | Date |
 |---|---|
-| Call for papers available | July 5 |
-| Paper submission deadline | October 1 (AOE) |
-| Notification of acceptance | November 4 |
-| Camera-ready deadline | November 25 |
-| Workshop date | December 14 |
+| Paper submission deadline | October 1, 2026 (AOE) |
+| Notification of acceptance | November 4, 2026 |
+| Camera-ready deadline | November 25, 2026 |
+| Workshop date | TBD during December 14-17, 2026 |
 
 ## Venue
 
-Extreme Curation 2026 will be held at the Sheraton Phoenix Downtown in Phoenix, Arizona, USA.
+Extreme Data Curation 2026 will be held at the Sheraton Phoenix Downtown in Phoenix, Arizona, USA.
 
 ---
 
-Questions? Contact the organizers at [ExtremeCurationWorkshop@googlegroups.com](mailto:ExtremeCurationWorkshop@googlegroups.com).
+Questions? Contact the organizers at [extreme-data-curation-organizers@googlegroups.com](mailto:extreme-data-curation-organizers@googlegroups.com).
 
 
