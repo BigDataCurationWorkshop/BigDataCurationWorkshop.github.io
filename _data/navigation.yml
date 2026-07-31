@@ -18,10 +18,8 @@
   url: "/logistics/"
   side: left
 
-- title: Organizers
-  url: "/organizers/"
+- title: Organization
+  url: "/organization/"
   side: left
 
-- title: Contact
-  url: "mailto:ExtremeCurationWorkshop@googlegroups.com"
-  side: right
+
