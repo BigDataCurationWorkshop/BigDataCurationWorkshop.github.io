@@ -6,11 +6,16 @@ header:
   image_fullwidth: "banner.jpg"
 ---
 
-## Workshop Chairs
+## Workshop Organizers
 
 * Katie Knight, Information Scientist, Oak Ridge National Laboratory
 * Patrick Widener, Senior Research Scientist, Oak Ridge National Laboratory
 * Matthew Wolf, Independent Researcher
+
+## Workshop Chairs
+
+* **Publication Chair** : Matthew Wolf
+* **Publicity Chair** : Polina Shpilker, Oak Ridge National Laboratory
 
 ## Program Committee
 
